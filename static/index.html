@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Upload an Image for Analysis</h1>
+    <form id="upload-form">
+        <input type="file" id="image-file" accept="image/png, image/jpeg, image/webp, image/gif" required>
+        <button type="submit">Analyze Image</button>
+    </form>
+    <div id="loading" style="display: none;">Analyzing... Please wait.</div>
+    <h2>Analysis Result:</h2>
+    <div id="result">
+        <p>Submit an image to see the analysis here.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
